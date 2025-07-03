@@ -1,23 +1,34 @@
+# 📊 Credit Risk Analysis (Logistic Regression)
 
-# Credit Risk Analysis (Logistic Regression)
 
-This is a project I worked on to better understand how logistic regression can be used to predict credit defaults. I used synthetic financial data to simulate real-world scenarios where companies might default on their bonds. The goal was to go through the full process — from cleaning the data to training and evaluating a classification model — in a way that felt hands-on and practical.
+Predicting corporate bond defaults using Python, synthetic financial data, and classification models.
 
-## What I Did
+This project explores how logistic regression can be applied to predict corporate bond defaults. Using synthetic financial data, I simulated real-world scenarios where companies may default, focusing on the full data science pipeline — from data cleaning and exploration to model training and evaluation.
 
-- Cleaned and organized the dataset to make it usable
-- Explored patterns in the data through visualizations
-- Trained a logistic regression model to classify defaults
-- Evaluated the model using accuracy, confusion matrix, and AUC score
+## 🔍 Objectives
 
-## What's in This Repo
+- Understand default risk in corporate finance using classification techniques
+- Explore relationships between key financial indicators and default likelihood
+- Evaluate model performance using appropriate statistical metrics
 
-- `notebook/credit_model_analysis.ipynb`: This notebook contains all my work — data prep, EDA, model building, and evaluation.
-- `requirements.txt`: The list of packages I used (if you want to recreate the environment).
+## 📁 What's Included
 
-## How to Run It
+- `notebook/credit_model_analysis.ipynb`: Full notebook with data cleaning, EDA, model training, and evaluation
+- `requirements.txt`: All Python packages needed to run the notebook
 
-1. Make sure you have Python and Jupyter Notebook installed.
-2. Install the required libraries:
+## 🧠 Methods & Tools
+
+- **Logistic Regression** (sklearn)
+- **Exploratory Data Analysis** with `pandas`, `seaborn`, `matplotlib`
+- **Model Evaluation**: Accuracy, Confusion Matrix, ROC Curve, AUC Score
+
+## 🛠 How to Run
+
+1. Clone this repo:
    ```bash
-   pip install -r requirements.txt
+   git clone https://github.com/amrin2521/Credit-Risk-Analysis.git
+   cd Credit-Risk-Analysis
+2. pip install -r requirements.txt
+3. jupyter notebook notebook/credit_model_analysis.ipynb
+
+
